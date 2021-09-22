@@ -1,0 +1,600 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="comboBox_from.Items5" xml:space="preserve">
+    <value>Catalan</value>
+  </data>
+  <data name="comboBox_to.Items29" xml:space="preserve">
+    <value>Latvian</value>
+  </data>
+  <data name="comboBox_to.Items23" xml:space="preserve">
+    <value>Icelandic</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="comboBox_from.Items51" xml:space="preserve">
+    <value>Yiddish</value>
+  </data>
+  <data name="&gt;&gt;comboBox_from.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;comboBox_to.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;comboBox_to.Name" xml:space="preserve">
+    <value>comboBox_to</value>
+  </data>
+  <data name="comboBox_from.Items3" xml:space="preserve">
+    <value>Belarusian</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="comboBox_to.Items33" xml:space="preserve">
+    <value>Maltese</value>
+  </data>
+  <data name="&gt;&gt;comboBox_to.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="comboBox_to.Items3" xml:space="preserve">
+    <value>Belarusian</value>
+  </data>
+  <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>172, 65</value>
+  </data>
+  <data name="comboBox_to.Items49" xml:space="preserve">
+    <value>Vietnamese</value>
+  </data>
+  <data name="&gt;&gt;comboBox_from.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="comboBox_to.Items43" xml:space="preserve">
+    <value>Spanish</value>
+  </data>
+  <data name="comboBox_to.Items4" xml:space="preserve">
+    <value>Bulgarian</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Choose Translation Language</value>
+  </data>
+  <data name="comboBox_from.Items42" xml:space="preserve">
+    <value>Slovenian</value>
+  </data>
+  <data name="comboBox_from.Items43" xml:space="preserve">
+    <value>Spanish</value>
+  </data>
+  <data name="comboBox_from.Items40" xml:space="preserve">
+    <value>Serbian</value>
+  </data>
+  <data name="comboBox_from.Items41" xml:space="preserve">
+    <value>Slovak</value>
+  </data>
+  <data name="comboBox_from.Items46" xml:space="preserve">
+    <value>Thai</value>
+  </data>
+  <data name="comboBox_from.Items47" xml:space="preserve">
+    <value>Turkish</value>
+  </data>
+  <data name="comboBox_from.Items44" xml:space="preserve">
+    <value>Swahili</value>
+  </data>
+  <data name="comboBox_from.Items45" xml:space="preserve">
+    <value>Swedish</value>
+  </data>
+  <data name="button1.Text" xml:space="preserve">
+    <value>&amp;Ok</value>
+  </data>
+  <data name="comboBox_to.Items18" xml:space="preserve">
+    <value>Greek</value>
+  </data>
+  <data name="comboBox_from.Items48" xml:space="preserve">
+    <value>Ukrainian</value>
+  </data>
+  <data name="comboBox_from.Items49" xml:space="preserve">
+    <value>Vietnamese</value>
+  </data>
+  <data name="comboBox_from.Items19" xml:space="preserve">
+    <value>Haitian Creole</value>
+  </data>
+  <data name="comboBox_from.Location" type="System.Drawing.Point, System.Drawing">
+    <value>53, 25</value>
+  </data>
+  <data name="comboBox_to.Items5" xml:space="preserve">
+    <value>Catalan</value>
+  </data>
+  <data name="comboBox_to.Items22" xml:space="preserve">
+    <value>Hungarian</value>
+  </data>
+  <data name="&gt;&gt;comboBox_from.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="comboBox_to.Items15" xml:space="preserve">
+    <value>French</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="comboBox_to.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="comboBox_to.Items28" xml:space="preserve">
+    <value>Korean</value>
+  </data>
+  <data name="comboBox_from.Items22" xml:space="preserve">
+    <value>Hungarian</value>
+  </data>
+  <data name="comboBox_from.Items23" xml:space="preserve">
+    <value>Icelandic</value>
+  </data>
+  <data name="comboBox_from.Items20" xml:space="preserve">
+    <value>Hebrew</value>
+  </data>
+  <data name="comboBox_from.Items21" xml:space="preserve">
+    <value>Hindi</value>
+  </data>
+  <data name="comboBox_from.Items26" xml:space="preserve">
+    <value>Italian</value>
+  </data>
+  <data name="comboBox_from.Items27" xml:space="preserve">
+    <value>Japanese</value>
+  </data>
+  <data name="comboBox_from.Items24" xml:space="preserve">
+    <value>Indonesian</value>
+  </data>
+  <data name="comboBox_from.Items25" xml:space="preserve">
+    <value>Irish</value>
+  </data>
+  <data name="comboBox_to.Items6" xml:space="preserve">
+    <value>Chinese</value>
+  </data>
+  <data name="comboBox_to.Items16" xml:space="preserve">
+    <value>Galician</value>
+  </data>
+  <data name="comboBox_from.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="comboBox_to.Items25" xml:space="preserve">
+    <value>Irish</value>
+  </data>
+  <data name="comboBox_to.Items38" xml:space="preserve">
+    <value>Romanian</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="comboBox_to.Items47" xml:space="preserve">
+    <value>Turkish</value>
+  </data>
+  <data name="comboBox_to.Items7" xml:space="preserve">
+    <value>Croatian</value>
+  </data>
+  <data name="comboBox_to.Items26" xml:space="preserve">
+    <value>Italian</value>
+  </data>
+  <data name="button2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="comboBox_to.Items35" xml:space="preserve">
+    <value>Persian</value>
+  </data>
+  <data name="comboBox_to.Items48" xml:space="preserve">
+    <value>Ukrainian</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;button1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="comboBox_from.Items6" xml:space="preserve">
+    <value>Chinese</value>
+  </data>
+  <data name="comboBox_to.Items8" xml:space="preserve">
+    <value>Czech</value>
+  </data>
+  <data name="comboBox_to.Items36" xml:space="preserve">
+    <value>Polish</value>
+  </data>
+  <data name="comboBox_from.Items29" xml:space="preserve">
+    <value>Latvian</value>
+  </data>
+  <data name="comboBox_to.Items45" xml:space="preserve">
+    <value>Swedish</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Frm_TranslateLanguageFromTo</value>
+  </data>
+  <data name="&gt;&gt;button1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboBox_to.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="comboBox_to.Items9" xml:space="preserve">
+    <value>Danish</value>
+  </data>
+  <data name="comboBox_to.Items46" xml:space="preserve">
+    <value>Thai</value>
+  </data>
+  <data name="comboBox_to.Items14" xml:space="preserve">
+    <value>Finnish</value>
+  </data>
+  <data name="comboBox_from.Items" xml:space="preserve">
+    <value>Afrikaans</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 13</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="comboBox_to.Items11" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="comboBox_to.Items24" xml:space="preserve">
+    <value>Indonesian</value>
+  </data>
+  <data name="comboBox_to.Items12" xml:space="preserve">
+    <value>Estonian</value>
+  </data>
+  <data name="comboBox_from.Items8" xml:space="preserve">
+    <value>Czech</value>
+  </data>
+  <data name="comboBox_to.Items39" xml:space="preserve">
+    <value>Russian</value>
+  </data>
+  <data name="comboBox_to.Items21" xml:space="preserve">
+    <value>Hindi</value>
+  </data>
+  <data name="comboBox_from.Items31" xml:space="preserve">
+    <value>Macedonian</value>
+  </data>
+  <data name="comboBox_from.Items4" xml:space="preserve">
+    <value>Bulgarian</value>
+  </data>
+  <data name="comboBox_to.Items34" xml:space="preserve">
+    <value>Norwegian</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>From:</value>
+  </data>
+  <data name="comboBox_from.Items50" xml:space="preserve">
+    <value>Welsh</value>
+  </data>
+  <data name="comboBox_to.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 21</value>
+  </data>
+  <data name="comboBox_to.Items31" xml:space="preserve">
+    <value>Macedonian</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="comboBox_from.Items2" xml:space="preserve">
+    <value>Arabic</value>
+  </data>
+  <data name="button1.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="comboBox_to.Items32" xml:space="preserve">
+    <value>Malay</value>
+  </data>
+  <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="comboBox_to.Items41" xml:space="preserve">
+    <value>Slovak</value>
+  </data>
+  <data name="comboBox_from.Items32" xml:space="preserve">
+    <value>Malay</value>
+  </data>
+  <data name="comboBox_from.Items33" xml:space="preserve">
+    <value>Maltese</value>
+  </data>
+  <data name="comboBox_from.Items30" xml:space="preserve">
+    <value>Lithuanian</value>
+  </data>
+  <data name="&gt;&gt;comboBox_from.Name" xml:space="preserve">
+    <value>comboBox_from</value>
+  </data>
+  <data name="comboBox_from.Items36" xml:space="preserve">
+    <value>Polish</value>
+  </data>
+  <data name="comboBox_from.Items37" xml:space="preserve">
+    <value>Portuguese</value>
+  </data>
+  <data name="comboBox_from.Items34" xml:space="preserve">
+    <value>Norwegian</value>
+  </data>
+  <data name="comboBox_from.Items35" xml:space="preserve">
+    <value>Persian</value>
+  </data>
+  <data name="comboBox_from.Items38" xml:space="preserve">
+    <value>Romanian</value>
+  </data>
+  <data name="comboBox_from.Items39" xml:space="preserve">
+    <value>Russian</value>
+  </data>
+  <data name="comboBox_to.Items2" xml:space="preserve">
+    <value>Arabic</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="comboBox_to.Items42" xml:space="preserve">
+    <value>Slovenian</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>To:</value>
+  </data>
+  <data name="comboBox_from.Items9" xml:space="preserve">
+    <value>Danish</value>
+  </data>
+  <data name="&gt;&gt;button2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;button1.Name" xml:space="preserve">
+    <value>button1</value>
+  </data>
+  <data name="button2.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;button2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="comboBox_to.Items27" xml:space="preserve">
+    <value>Japanese</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 13</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="comboBox_to.Items20" xml:space="preserve">
+    <value>Hebrew</value>
+  </data>
+  <data name="comboBox_to.Location" type="System.Drawing.Point, System.Drawing">
+    <value>209, 25</value>
+  </data>
+  <data name="comboBox_from.Items7" xml:space="preserve">
+    <value>Croatian</value>
+  </data>
+  <data name="comboBox_to.Items44" xml:space="preserve">
+    <value>Swahili</value>
+  </data>
+  <data name="comboBox_to.Items37" xml:space="preserve">
+    <value>Portuguese</value>
+  </data>
+  <data name="&gt;&gt;button2.Name" xml:space="preserve">
+    <value>button2</value>
+  </data>
+  <data name="comboBox_to.Items" xml:space="preserve">
+    <value>Afrikaans</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="comboBox_to.Items30" xml:space="preserve">
+    <value>Lithuanian</value>
+  </data>
+  <data name="comboBox_from.Items28" xml:space="preserve">
+    <value>Korean</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>180, 28</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>340, 100</value>
+  </data>
+  <data name="comboBox_from.Items12" xml:space="preserve">
+    <value>Estonian</value>
+  </data>
+  <data name="comboBox_from.Items13" xml:space="preserve">
+    <value>Filipino</value>
+  </data>
+  <data name="comboBox_from.Items10" xml:space="preserve">
+    <value>Dutch</value>
+  </data>
+  <data name="comboBox_from.Items11" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="comboBox_from.Items16" xml:space="preserve">
+    <value>Galician</value>
+  </data>
+  <data name="comboBox_from.Items17" xml:space="preserve">
+    <value>German</value>
+  </data>
+  <data name="comboBox_from.Items14" xml:space="preserve">
+    <value>Finnish</value>
+  </data>
+  <data name="comboBox_from.Items15" xml:space="preserve">
+    <value>French</value>
+  </data>
+  <data name="comboBox_from.Items18" xml:space="preserve">
+    <value>Greek</value>
+  </data>
+  <data name="button2.Text" xml:space="preserve">
+    <value>&amp;Cancel</value>
+  </data>
+  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>253, 65</value>
+  </data>
+  <data name="comboBox_to.Items17" xml:space="preserve">
+    <value>German</value>
+  </data>
+  <data name="comboBox_to.Items40" xml:space="preserve">
+    <value>Serbian</value>
+  </data>
+  <data name="comboBox_to.Items51" xml:space="preserve">
+    <value>Yiddish</value>
+  </data>
+  <data name="comboBox_from.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 21</value>
+  </data>
+  <data name="comboBox_from.Items1" xml:space="preserve">
+    <value>Albanian</value>
+  </data>
+  <data name="comboBox_to.Items19" xml:space="preserve">
+    <value>Haitian Creole</value>
+  </data>
+  <data name="comboBox_to.Items50" xml:space="preserve">
+    <value>Welsh</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 28</value>
+  </data>
+  <data name="comboBox_to.Items13" xml:space="preserve">
+    <value>Filipino</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="comboBox_to.Items10" xml:space="preserve">
+    <value>Dutch</value>
+  </data>
+  <data name="comboBox_to.Items1" xml:space="preserve">
+    <value>Albanian</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+</root>
